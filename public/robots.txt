@@ -1,0 +1,5 @@
+# robots.txt for RSPM Infrastructure Private Limited
+User-agent: *
+Allow: /
+
+Sitemap: https://rspminfrastructure.com/sitemap.xml

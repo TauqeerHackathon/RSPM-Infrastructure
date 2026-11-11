@@ -1,0 +1,1221 @@
+# MASTER WEBSITE DEVELOPMENT PROMPT
+## RSPM INFRASTRUCTURE PRIVATE LIMITED
+### Premium Construction, Infrastructure & Real Estate Corporate Website
+
+You are an award-winning Senior UI/UX Designer, Full-Stack React Developer, Responsive Web Design Expert, SEO Specialist, and Accessibility Engineer.
+
+Your task is to DESIGN AND BUILD a complete, beautiful, professional, modern, production-oriented, fully responsive corporate website for **RSPM INFRASTRUCTURE PRIVATE LIMITED**, an Indian infrastructure and construction company.
+
+This is a REAL CLIENT PROJECT for GXA Technologies.
+
+Do not create just a landing page, mockup, prototype, or generic template. Build a complete functioning multi-page website with reusable components, real navigation, responsive interactions, professional copywriting, and properly implemented functionality.
+
+The website must look as if it was professionally designed by a premium Indian architecture, construction, and infrastructure web design agency.
+
+**IMPORTANT: The client will provide the original company logo as an uploaded image asset. You MUST preserve the actual logo without changing its shape, font, colors, architecture symbol, tagline, or proportions.**
+
+---
+
+# 1. OFFICIAL COMPANY INFORMATION
+
+Company Name:
+RSPM INFRASTRUCTURE PRIVATE LIMITED
+
+Short Brand Name:
+RSPM Infrastructure
+
+Company Tagline:
+BUILDING TOMORROW, TOGETHER
+
+Industry:
+Construction, Infrastructure, Residential Development, Commercial Construction, Civil Engineering and related development services.
+
+Corporate Identification Number (CIN):
+U43299MR2026PTC475715
+
+Registration Number:
+475715
+
+Incorporation Date:
+17 April 2026
+
+Company Type:
+Private Limited Company
+
+Company Status:
+Active
+
+Registrar of Companies:
+RoC Mumbai
+
+Registered Office Address:
+C-603, Konark Residency,
+Madhuban Township,
+Vasai, Thane,
+Maharashtra – 401208,
+India.
+
+Company Directors:
+- Mr. Raghunath Shivshankar Rai — Director
+- Mrs. Sita Raghunath Rai — Managing Director
+
+Primary Business Contact / WhatsApp:
++91 90966 71425
+
+WhatsApp Link:
+https://wa.me/919096671425
+
+An additional number, +91 96656 29141, appeared in the original enquiry. Do not publish it until the client confirms it is an authorized business contact.
+
+Official Email:
+Not yet provided. Implement as an easily editable configuration value; do not invent an email address.
+
+Website Domain:
+Not yet provided. Do not assume the company has an active domain.
+
+IMPORTANT CONTENT POLICY:
+
+The company details above are supplied for this client project. Keep legal and director information centralized and easily editable pending the client's final publication approval.
+
+The client wants the website to present residential, commercial, civil construction, infrastructure, and related services.
+
+However, DO NOT invent:
+- Completed construction projects
+- Project names or addresses
+- Client testimonials
+- Awards and certifications
+- Years of experience
+- 100+ projects or similar counters
+- RERA approval numbers
+- Government contracts
+- Building licenses
+- Partnerships
+- Financial turnover
+- Team credentials or professional qualifications
+- Property prices and availability
+- Director biographies or photos
+
+Use professional, credible language without unsupported claims.
+
+---
+
+# 2. OVERALL DESIGN VISION
+
+Create a premium corporate construction website that is:
+
+- Modern and architecturally inspired
+- Luxurious but professional
+- Clean, spacious and balanced
+- Trustworthy and established-looking without false claims
+- Elegant and visually impressive
+- Easy to navigate
+- Mobile-first
+- Fast-loading
+- Accessible
+- SEO-friendly
+- Visually consistent across all pages
+
+The website should communicate:
+
+TRUST • QUALITY • PRECISION • INTEGRITY • PROGRESS • PROFESSIONALISM
+
+Avoid flashy effects, cluttered layouts, giant animations, cheap templates, cartoonish icons, unnecessary gradients, or excessive decorative elements.
+
+VISUAL REFERENCES:
+
+Take conceptual design inspiration from premium infrastructure, construction and architectural corporate websites.
+
+Do not copy another company's branding, copyrighted content, logos, or exact layouts.
+
+### Color Palette
+
+Primary Navy Blue: #102C46
+Deep Navy: #0A1C2E
+Metallic Gold: #BD9141
+Soft Gold: #D8B66A
+White: #FFFFFF
+Warm Off-White: #F6F4EF
+Light Grey: #F2F4F6
+Text Grey: #596675
+
+The client's actual uploaded logo is the primary brand reference. The color codes above are design starting points, not official measured logo codes.
+
+### Typography
+
+Use a premium, legible combination such as:
+- Headings: Manrope or Plus Jakarta Sans
+- Body: Inter
+- Elegant large architectural headings
+- Clear body typography
+- Strong hierarchy
+
+Avoid unnecessarily tiny fonts, especially on mobile devices.
+
+### Design Elements
+
+- Large architectural photography
+- Full-width premium hero imagery
+- Refined gold accent lines
+- Elegant service cards
+- Subtle shadows
+- Smooth section transitions
+- Professional whitespace
+- Grid-based architecture
+- Carefully controlled border radii
+- Refined hover interactions
+- Consistent iconography
+
+Use authentic-looking, legally usable construction, architecture and infrastructure stock photography as illustrative imagery.
+
+Avoid repetitive or obviously AI-generated construction images.
+
+Do not represent stock images as actual RSPM projects.
+
+---
+
+# 3. REQUIRED TECHNOLOGY
+
+Build using:
+
+- React
+- TypeScript
+- Tailwind CSS
+- React Router for multi-page navigation
+- Lucide React for consistent icons
+- Modular, reusable components
+- Responsive CSS layouts
+- Accessible semantic HTML
+
+Use the existing Google AI Studio project environment and dependencies where appropriate.
+
+Do not unnecessarily introduce a complicated backend.
+
+Separate:
+- Components
+- Pages
+- Company configuration
+- Service content
+- Project content
+- Navigation
+- Form logic
+- Styling and assets
+
+Maintain clean, scalable and understandable code.
+
+The project must build successfully without TypeScript errors, broken imports or missing components.
+
+---
+
+# 4. HEADER & NAVIGATION — CRITICAL
+
+Create a beautiful premium website header.
+
+DESKTOP HEADER:
+
+Left:
+Original RSPM logo.
+
+Center or right:
+- Home
+- About Us
+- Services
+- Projects
+- Gallery
+- Contact Us
+
+Right:
+Gold-accented "Get a Quote" CTA button.
+
+Header behavior:
+- Sticky on scroll
+- Elegant transition when scrolling
+- Solid readable background after scroll
+- Appropriate contrast on hero imagery
+- Logo must never be stretched
+- Navigation links must work
+- Active page indication
+- Smooth hover underline or gold highlight
+
+### MOBILE HEADER — MANDATORY
+
+For mobile screens:
+
+LEFT SIDE:
+RSPM logo.
+
+RIGHT SIDE:
+A clearly visible THREE-LINE HAMBURGER MENU BUTTON.
+
+The hamburger icon MUST appear on the top-right side, never on the left.
+
+Do not squeeze desktop navigation into mobile screens.
+
+Mobile header layout:
+
+[RSPM LOGO]                         [☰]
+
+When the user taps the hamburger button:
+
+Open a beautiful, functional mobile navigation panel below the header or as an accessible overlay.
+
+Display:
+- Home
+- About Us
+- Services
+- Projects
+- Gallery
+- Contact Us
+- Get a Quote
+
+Requirements:
+1. Smooth opening and closing animation.
+2. Hamburger transforms into an X icon.
+3. Close when any navigation link is clicked.
+4. Close using the X button.
+5. Close with the Escape key.
+6. Proper keyboard focus management.
+7. Lock background scrolling when the overlay is open.
+8. Prevent content overflow.
+9. Maintain an accessible touch target of at least 44×44 pixels.
+10. Proper aria-label and aria-expanded attributes.
+11. Keep logo and menu button correctly aligned.
+12. Keep the header visually balanced on 320px, 360px, 375px and 390px screens.
+13. Close or synchronize the mobile menu when switching to desktop.
+14. Ensure navigation to a new route scrolls to the top.
+
+This mobile menu functionality is extremely important.
+
+---
+
+# 5. COMPLETE WEBSITE PAGES
+
+Build ALL these pages as functioning routes:
+
+1. Home
+2. About Us
+3. Our Services
+4. Our Projects
+5. Gallery
+6. Contact Us
+7. Privacy Policy
+
+Also create a polished 404 Not Found page.
+
+Every page must share the same navigation, branding, typography and footer.
+
+---
+
+# 6. HOME PAGE — PREMIUM DESIGN
+
+The homepage is the most important page.
+
+## SECTION 1: HERO BANNER
+
+Create a cinematic, visually powerful homepage hero.
+
+Use a premium wide architectural/construction photograph showing large-scale buildings, an urban development or infrastructure.
+
+Add an elegant dark navy overlay for readability.
+
+Suggested headline:
+
+"Building Strong Foundations.
+Creating a Better Tomorrow."
+
+Supporting copy:
+
+"RSPM Infrastructure Private Limited brings a dedicated approach to construction, infrastructure and development, with a focus on quality, planning and long-term value."
+
+Display two CTA buttons:
+
+PRIMARY:
+Explore Our Services
+
+SECONDARY:
+Contact Our Team
+
+Add the company tagline subtly:
+
+BUILDING TOMORROW, TOGETHER
+
+Hero requirements:
+- Strong visual hierarchy
+- Legible contrast
+- Beautiful desktop and mobile cropping
+- Correct image focal point
+- No text hidden behind header
+- No text overlap
+- No oversized mobile headings
+- Responsive buttons
+- Optional subtle fade-in animations
+
+Do not autoplay heavy videos.
+
+## SECTION 2: COMPANY INTRODUCTION
+
+Section label:
+WHO WE ARE
+
+Heading:
+"Committed to Building with Purpose"
+
+Write professional copy introducing RSPM Infrastructure Private Limited as a Maharashtra-based company working in the construction and infrastructure sector.
+
+Communicate:
+- Professional construction approach
+- Responsible planning
+- Attention to detail
+- Commitment to quality
+- Long-term client relationships
+
+Include:
+- Attractive construction-related illustrative image
+- Two-column desktop layout
+- Single-column mobile layout
+- Read More / About Us CTA
+
+Do not claim an invented operating history.
+
+## SECTION 3: OUR CORE SERVICES
+
+Section label:
+WHAT WE DO
+
+Heading:
+"Construction & Infrastructure Solutions"
+
+Create six visually balanced service cards.
+
+SERVICES:
+
+1. Residential Construction
+   Housing, villas, apartments, residential buildings and related construction solutions.
+
+2. Commercial Construction
+   Office buildings, retail spaces, commercial structures and professional development environments.
+
+3. Infrastructure Development
+   Infrastructure-related construction, site preparation and development works.
+
+4. Civil Construction & Contracting
+   Civil works, structural construction and project execution services.
+
+5. Renovation & Redevelopment
+   Property improvement, renovation, modernization and redevelopment-related services.
+
+6. Construction Project Coordination
+   Planning support, construction coordination, site execution and project progress management.
+
+Treat these six categories as the client's intended website service scope, with content easily editable following operational confirmation.
+
+Every card must have:
+- Professional Lucide icon
+- Service title
+- 2–3-line description
+- Learn More link
+- Subtle hover animation
+- Consistent height
+
+Desktop:
+Three-column grid.
+
+Tablet:
+Two-column grid.
+
+Mobile:
+One-column layout with comfortable spacing.
+
+## SECTION 4: OUR APPROACH
+
+Heading:
+"Built on Trust. Driven by Quality."
+
+Create four elegant feature blocks:
+
+- Thoughtful Planning
+- Quality-Focused Execution
+- Clear Communication
+- Long-Term Value
+
+Use careful wording about the company's working philosophy, not unsupported historical achievements.
+
+## SECTION 5: CONSTRUCTION SECTORS
+
+Heading:
+"Building Across Multiple Sectors"
+
+Show elegant visual category cards:
+
+- Residential
+- Commercial
+- Infrastructure
+- Civil Works
+
+Use category-specific photographic illustrations.
+
+These are service categories, not completed-project claims.
+
+## SECTION 6: FEATURED PROJECTS
+
+Heading:
+"Our Projects"
+
+Build a beautiful Projects section that supports future completed, ongoing and upcoming projects.
+
+Project data model should support:
+- Project name
+- City
+- State
+- Category
+- Description
+- Cover image
+- Gallery images
+- Status
+- Optional completion date
+- Optional RERA registration
+- Optional project highlights
+
+IMPORTANT:
+Actual project data is not yet supplied.
+
+Do not create fake projects.
+
+Instead, render an elegant branded state:
+
+"Our project portfolio will be updated soon. Connect with our team to learn more about our work."
+
+CTA:
+Discuss Your Project
+
+When real project information is added later, the same component must automatically render professional project cards.
+
+## SECTION 7: WORK PROCESS
+
+Heading:
+"From Vision to Execution"
+
+Create a four-step process:
+
+01 — Initial Consultation
+02 — Project Planning
+03 — Construction & Coordination
+04 — Review & Handover
+
+Present this as an illustrative service process, not as a guaranteed contractual workflow.
+
+## SECTION 8: ENQUIRY CALL-TO-ACTION
+
+Create a beautiful navy background section with gold accents.
+
+Headline:
+"Have a Construction Project in Mind?"
+
+Description:
+"Let's discuss your residential, commercial or infrastructure requirements."
+
+Buttons:
+- Request a Consultation
+- WhatsApp Our Team
+
+WhatsApp must open:
+https://wa.me/919096671425
+
+Use a prefilled professional business enquiry message.
+
+## SECTION 9: CONTACT PREVIEW
+
+Display:
+- Registered office address
+- Primary contact
+- Contact enquiry CTA
+- Google Maps location link
+
+Do not invent an office email.
+
+## SECTION 10: FOOTER
+
+Build the premium global footer specified later in this prompt.
+
+---
+
+# 7. ABOUT US PAGE
+
+Create a visually polished About Us page.
+
+Include:
+
+### Page Hero
+"About RSPM Infrastructure"
+
+### Company Overview
+
+Present the business professionally and accurately.
+
+Explain its intended focus on construction, infrastructure and development solutions.
+
+### Vision
+"To contribute to thoughtfully planned, durable and responsible built environments."
+
+### Mission
+"To approach construction and infrastructure work through careful planning, quality-conscious execution and collaborative relationships."
+
+### Core Values
+- Integrity
+- Quality
+- Accountability
+- Collaboration
+- Continuous Improvement
+
+### Leadership
+
+Create a professional Leadership section.
+
+Director:
+Mr. Raghunath Shivshankar Rai
+
+Managing Director:
+Mrs. Sita Raghunath Rai
+
+Use text-only leadership cards with elegant initials or simple neutral silhouettes until actual photographs are provided.
+
+Do not generate artificial photographs of the real directors.
+
+Do not invent biographies, qualifications or achievements.
+
+### Corporate Information
+
+Company:
+RSPM Infrastructure Private Limited
+
+Incorporated:
+17 April 2026
+
+CIN:
+U43299MR2026PTC475715
+
+Registered Office:
+C-603, Konark Residency, Madhuban Township, Vasai, Thane, Maharashtra – 401208, India.
+
+Keep this legal information editable for final confirmation.
+
+---
+
+# 8. SERVICES PAGE
+
+Build a professional main services page.
+
+Use a premium architectural page banner.
+
+Headline:
+"Our Construction & Infrastructure Services"
+
+Display six service categories with their own detailed sections:
+
+Residential Construction
+Commercial Construction
+Infrastructure Development
+Civil Construction & Contracting
+Renovation & Redevelopment
+Construction Project Coordination
+
+Each section must contain:
+- High-quality relevant illustrative image
+- Attractive heading
+- Professional description
+- General service capabilities
+- Enquiry CTA
+- Responsive image/text layout
+
+Alternate image placement between left and right on desktop.
+
+On mobile, stack sections naturally.
+
+Do not make false legal, technical or performance guarantees.
+
+Do not claim the company holds specific licenses or approvals.
+
+Add an enquiry CTA at the end of the page.
+
+---
+
+# 9. PROJECTS PAGE
+
+Create a flexible, future-ready Projects Portfolio page.
+
+Beautiful page title:
+"Our Projects"
+
+Support categories:
+- All Projects
+- Residential
+- Commercial
+- Infrastructure
+- Civil Works
+
+Support status:
+- Completed
+- Ongoing
+- Upcoming
+
+Build real working filters when project data exists.
+
+Design polished project cards supporting:
+- Photo
+- Project title
+- Category
+- Location
+- Status
+- Project details
+
+Do not populate with fictional projects.
+
+Until actual project data is added, use the elegant empty state mentioned earlier.
+
+Build the components in advance so adding future project data requires only updating the centralized project content, not redesigning the entire website.
+
+If the client later adds property sales, support optional project fields for:
+- Property type
+- Configuration
+- Location
+- Project brochure
+- RERA registration
+- Enquiry
+
+Do not show invented property rates, legal approvals, or availability.
+
+---
+
+# 10. GALLERY PAGE
+
+Create a professional Gallery page designed for future construction project photographs.
+
+Categories:
+- All
+- Residential
+- Commercial
+- Infrastructure
+- Construction Sites
+
+When actual gallery images are available:
+- Responsive masonry-style or balanced photo grid
+- Click to open lightbox
+- Next/previous navigation
+- Close button
+- Keyboard support
+- Touch-friendly navigation
+- Image alt text
+- Optimized image loading
+
+Until authentic RSPM gallery images are provided:
+Show a tasteful, clearly labeled illustrative gallery section or an elegant "Gallery Coming Soon" state.
+
+Do not label stock photographs as real RSPM sites.
+
+---
+
+# 11. CONTACT US PAGE
+
+Create a fully designed contact page.
+
+## Contact Information
+
+Company:
+RSPM Infrastructure Private Limited
+
+Registered Office:
+C-603, Konark Residency,
+Madhuban Township,
+Vasai, Thane,
+Maharashtra – 401208,
+India.
+
+Primary Phone:
++91 90966 71425
+
+WhatsApp:
++91 90966 71425
+
+Google Maps:
+Provide a working search link using the exact registered address, rather than inventing coordinates.
+
+Official Email:
+Display only if an actual email is supplied in company configuration.
+
+## Contact Form
+
+Fields:
+
+- Full Name — required
+- Phone Number — required
+- Email Address — optional
+- Service Required — dropdown
+- Project Location — optional
+- Message / Requirement — required
+
+Service dropdown options:
+- Residential Construction
+- Commercial Construction
+- Infrastructure Development
+- Civil Construction
+- Renovation / Redevelopment
+- Other Enquiry
+
+Add validation:
+- Required fields
+- Indian phone number formatting
+- Valid email if provided
+- Safe input handling
+- Clear inline errors
+
+### Form Submission — IMPORTANT
+
+The form must not pretend to successfully submit data when no backend exists.
+
+Preferred implementation:
+Provide a secure, production-ready form architecture with a configurable submission endpoint or serverless function.
+
+Until a backend is configured:
+Provide an explicit WhatsApp enquiry submission option that assembles the entered form values into a URL-encoded WhatsApp message to the company's primary number.
+
+Do not expose private API keys in the frontend.
+
+Do not use a fake success message.
+
+Do not secretly store customer data in local storage.
+
+Clearly disclose whether submission is via WhatsApp or a connected form endpoint.
+
+Include appropriate consent wording and privacy notice.
+
+Add basic anti-spam protection for any connected backend.
+
+---
+
+# 12. WHATSAPP FUNCTIONALITY
+
+Create a floating WhatsApp button.
+
+Desktop:
+Bottom-right corner.
+
+Mobile:
+Bottom-right corner, with safe spacing from other controls.
+
+Use the company's number:
++91 90966 71425
+
+WhatsApp destination:
+https://wa.me/919096671425
+
+Suggested prefilled message:
+
+"Hello RSPM Infrastructure, I would like to enquire about your construction and infrastructure services. Please share more details."
+
+Ensure:
+- WhatsApp button works
+- Correct country code
+- Accessible label
+- Does not cover form buttons
+- Does not overlap the mobile navigation
+- Correct mobile touch behavior
+
+Use WhatsApp branding appropriately.
+
+---
+
+# 13. MOBILE RESPONSIVENESS — NON-NEGOTIABLE
+
+The entire website must be meticulously optimized for:
+
+320px
+360px
+375px
+390px
+430px
+768px
+1024px
+1280px
+1440px
+1920px
+
+Mobile behavior:
+
+- Logo left, hamburger menu right
+- Responsive content width
+- Correct typography scaling
+- No horizontal scrolling
+- No overflowing cards
+- No clipped text
+- No distorted images
+- No footer overlap
+- No cut-off buttons
+- No broken navigation
+- Correctly stacked content
+- Full-width or appropriately sized CTAs
+- Comfortable vertical spacing
+- Readable phone and address text
+- Working tap-to-call links
+- Working WhatsApp CTA
+- Properly sized form fields
+- Correct image cropping
+- Touch-friendly gallery controls
+- Mobile menu always usable
+- Floating WhatsApp button with safe positioning
+
+Use CSS Grid, Flexbox, fluid spacing and responsive font sizes.
+
+Do not use fixed widths that break mobile screens.
+
+Test the appearance in portrait and landscape orientations.
+
+Every page must feel intentionally designed for mobile, not simply shrunk from the desktop version.
+
+---
+
+# 14. IMAGE AND ASSET GUIDELINES
+
+I will upload the original RSPM company logo.
+
+Use it in:
+- Header
+- Footer
+- Appropriate branding areas
+- Browser favicon if a suitable, recognizable icon crop can be derived without changing the design
+
+DO NOT:
+- Redraw the logo
+- Change its navy or gold colors
+- Replace the typography
+- Alter the construction symbol
+- Remove the original tagline
+- Stretch or crop important logo elements
+
+Use real-looking, premium stock imagery for generic construction-themed sections.
+
+Prefer images that represent:
+- Indian urban construction
+- Modern residential apartments
+- Commercial buildings
+- Construction activity
+- Civil engineering
+- Infrastructure development
+- Architecture details
+
+Avoid:
+- Watermarked images
+- Copyright-unsafe images
+- Repeated photographs
+- Fake project photography
+- Generic cartoon illustrations
+
+Optimize images, use appropriate aspect ratios and prevent layout shifts.
+
+Include fallback images or polished fallback states where necessary.
+
+---
+
+# 15. SEO IMPLEMENTATION
+
+Implement essential technical and on-page SEO.
+
+Create unique titles and descriptions for:
+
+Home
+About Us
+Services
+Projects
+Gallery
+Contact Us
+
+Suggested homepage SEO title:
+RSPM Infrastructure Private Limited | Construction & Infrastructure
+
+Suggested meta description:
+Discover RSPM Infrastructure Private Limited, a Maharashtra-based company focused on construction, residential, commercial and infrastructure development services.
+
+Implement:
+- Semantic heading hierarchy
+- One primary H1 per page
+- Descriptive URLs
+- Accessible alt text
+- Open Graph metadata
+- Twitter/X social card metadata
+- Correct mobile viewport
+- Clean internal linking
+- XML sitemap
+- robots.txt
+- Breadcrumb navigation where relevant
+- Proper page 404 handling
+- Structured data using Schema.org Organization
+- Appropriate LocalBusiness data only when supported
+- Correctly formatted phone number
+- Official company identity
+- Registered address
+
+Do not invent business ratings, operating hours, coordinates, certifications, public email, or other unverified metadata.
+
+Make site URL/canonical settings configurable until the real domain is supplied.
+
+Use a deployment-aware approach for SPA route handling and SEO metadata.
+
+---
+
+# 16. PERFORMANCE AND ACCESSIBILITY
+
+Optimize for:
+
+- Mobile Core Web Vitals
+- Fast initial rendering
+- Responsive images
+- Minimal unnecessary JavaScript
+- Lazy loading below-the-fold imagery
+- Reduced layout shift
+- Efficient component rendering
+- Proper caching where supported
+- Stable responsive layout
+
+Accessibility:
+
+- Semantic landmarks
+- Alt text
+- Keyboard navigation
+- Visible focus indicators
+- Accessible button labels
+- Proper form labels
+- Sufficient contrast
+- Accessible mobile menu
+- Reduced-motion support
+- Correct heading sequence
+- No inaccessible hover-only controls
+
+Animations:
+Use subtle fade-in, reveal and hover effects without compromising accessibility or performance.
+
+---
+
+# 17. FOOTER DESIGN
+
+Create a premium dark navy footer with refined gold details.
+
+Column 1:
+Original RSPM logo
+
+Tagline:
+BUILDING TOMORROW, TOGETHER
+
+Company overview:
+A short, professionally written construction and infrastructure introduction.
+
+Column 2:
+Quick Links
+- Home
+- About Us
+- Services
+- Projects
+- Gallery
+- Contact Us
+
+Column 3:
+Our Services
+- Residential Construction
+- Commercial Construction
+- Infrastructure Development
+- Civil Works
+- Renovation & Redevelopment
+
+Column 4:
+Contact Information
+
+Phone:
++91 90966 71425
+
+Address:
+C-603, Konark Residency, Madhuban Township, Vasai, Thane, Maharashtra – 401208, India.
+
+Add:
+- Click-to-call
+- WhatsApp link
+- Google Maps search link
+- Privacy Policy
+
+Include copyright:
+© [Current Year] RSPM Infrastructure Private Limited. All Rights Reserved.
+
+Optional developer attribution in the bottom footer:
+"Website Designed & Developed by GXA Technologies"
+
+Link developer name to:
+https://gxatechnology.com
+
+Keep attribution visually subtle and professional.
+
+Do not add fictional social media links.
+
+Social icons should appear only when actual accounts are provided.
+
+---
+
+# 18. PRIVACY POLICY
+
+Create a clear, appropriate Privacy Policy page.
+
+Explain:
+- What enquiry form data is collected
+- Why it is collected
+- How enquiries are handled
+- Whether third-party WhatsApp services are involved
+- Whether analytics or cookies are actually used
+- How users can contact the company for privacy requests
+
+Do not claim data protection processes, retention schedules, or legal compliance certifications that have not been implemented.
+
+Keep privacy content configurable for review before production publication.
+
+---
+
+# 19. CONTENT MANAGEMENT & FUTURE UPDATES
+
+The client may provide additional information later.
+
+Create a clean central configuration system.
+
+Example content structure:
+
+company.ts
+services.ts
+projects.ts
+gallery.ts
+navigation.ts
+
+The company configuration must contain:
+- Official name
+- Short name
+- Tagline
+- CIN
+- Incorporation date
+- Office address
+- Phone
+- WhatsApp
+- Email
+- Logo path
+- Social links
+- Google Maps link
+
+Project content must be easily editable.
+
+Gallery assets must be easily replaceable.
+
+Actual images should be added without changing the overall layout.
+
+Use one source of truth for contact details across all pages.
+
+Do not unnecessarily implement a database or complex admin panel in the first version.
+
+---
+
+# 20. PREMIUM UI COMPONENTS
+
+Build reusable components such as:
+
+- Header
+- MobileNavigation
+- Footer
+- HeroSection
+- SectionHeading
+- ServiceCard
+- ProjectCard
+- ProjectFilter
+- GalleryGrid
+- GalleryLightbox
+- ContactForm
+- FloatingWhatsApp
+- CTASection
+- Breadcrumbs
+- ScrollToTop
+- BackToTopButton
+- PageHero
+
+Use consistent spacing and component variants.
+
+Avoid repeating large amounts of code.
+
+---
+
+# 21. STRICT QUALITY CONTROL
+
+Before completing the website, inspect and correct:
+
+1. All routes load properly.
+2. No blank pages.
+3. No broken imports.
+4. No TypeScript build errors.
+5. Original company logo appears correctly.
+6. Header is consistent on all pages.
+7. Mobile hamburger is on the RIGHT.
+8. Hamburger opens and closes correctly.
+9. Mobile menu links navigate correctly.
+10. No horizontal overflow on mobile.
+11. Floating WhatsApp opens the correct number.
+12. Phone numbers use click-to-call.
+13. Contact form validates properly.
+14. No false enquiry submission success messages.
+15. All CTA buttons perform real actions.
+16. Project filters work with populated data.
+17. Empty project and gallery states look intentional.
+18. Footer links work.
+19. Privacy Policy is accessible.
+20. Desktop and mobile layouts look premium.
+21. Images maintain the correct aspect ratio.
+22. No invented business achievements or project data.
+23. Contact details remain consistent.
+24. SEO metadata is correctly configured.
+25. Keyboard accessibility works.
+26. Production build completes successfully.
+
+If any requirement is incomplete, fix it rather than leaving broken placeholders.
+
+---
+
+# 22. EXPECTED FINAL EXPERIENCE
+
+The final website must look like a polished, high-value corporate infrastructure website.
+
+When someone opens the website on desktop:
+They should immediately see a credible, premium company with strong architecture-inspired branding, beautiful photography, clear service information and easy navigation.
+
+When someone opens the website on mobile:
+They should see a clean compact header, the RSPM logo on the left, a three-line menu on the right, beautiful responsive sections, well-spaced content, working contact options and an excellent user experience.
+
+The website must feel authentic and professionally designed rather than like a generic AI-generated template.
+
+Do not overload the homepage.
+
+Do not compromise usability for visual effects.
+
+Do not introduce fictional business data just to make the layout appear complete.
+
+Use the supplied client facts and original logo as the source of truth.
+
+# FINAL EXECUTION INSTRUCTION
+
+NOW BUILD THE COMPLETE RESPONSIVE RSPM INFRASTRUCTURE PRIVATE LIMITED WEBSITE.
+
+Start by implementing the entire project structure and shared design system, then create every requested page, component, route and interaction.
+
+Populate all content that can be written accurately from the supplied information.
+
+Use elegant, explicit empty states for missing genuine project information.
+
+Deliver a functioning, polished React website in the Google AI Studio project preview.
+
+Prioritize:
+1. Premium visual quality.
+2. Accurate company branding.
+3. Excellent mobile responsiveness.
+4. Right-aligned mobile hamburger menu.
+5. Working navigation and enquiry functionality.
+6. All website pages.
+7. Performance and SEO.
+8. Clean, maintainable code.
+
+Do not stop after creating only a homepage or static visual mockup.
